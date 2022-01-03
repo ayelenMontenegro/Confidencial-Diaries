@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+header .info-contact{
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    border-bottom: 2px solid #E4E4E4;
+}
+header .info-contact div{
+    display: flex;
+    gap: 1rem;
+}
+header .info-contact div i{
+    cursor: pointer;
+    color:#717171;
+}
+header .info-contact .time div div p {
+    cursor: pointer;
+    color: #757575;
+    font-weight: bold;
+    font-size: 1rem;
+}
+header .info-contact .time div p{
+    cursor: default;
+    color: #878787;
+    font-size: .9rem;
+    display: flex;
+}
+header .info-contact .time div div{
+    position: relative;
+}
+header .info-contact .time div p span{
+    color: #878787;
+    font-size: .7rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: .5rem;
+    left: 3.3rem;
+}
+header .info-contact .subscription p{
+    font-weight: bold;
+    color: #717171;
+    font-size: .9rem;
+}
+header .info-contact .subscription p:nth-child(1){
+    cursor: default;
+}
+header .info-contact .subscription p:nth-child(2){
+    cursor: pointer;
+}
+header .impor{
+    width: 80rem;
+    height: 8.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #E4E4E4;
+}
+header .impor .title{
+    display: flex;
+    align-items: center;
+    margin: 1.8rem 0rem;
+    gap: .8rem;
+}
+header .impor .title p{
+    color: white;
+    padding: .2rem .3rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    background-color: #c60c30;
+    border-radius: 50%;
+}
+header .impor .title h1{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #c60c30;
+    font-size: 2.5rem;
+}
+header .impor nav ul{
+    display: flex;
+    gap: 1rem;
+}
+header .impor nav ul li{
+    list-style: none;
+
+}
+header .impor nav ul li a{
+    text-decoration: none;
+    color:#1d2022;
+    font-weight: bold;
+    font-size: .95rem;
+    cursor: default;
+}
+header .impor nav ul li:nth-child(1) a{
+    cursor: pointer;
+}
+header .impor nav ul li:nth-child(3) a{
+    cursor: pointer;
+}
+header .impor nav ul li a:hover{
+    color: #1f6588;
+}
+main{
+    margin-top: 1.6rem;
+}
+main .salient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    cursor: default;
+}
+main .salient p:nth-child(3){
+    color: #000000;
+    font-size: 1rem;
+}
+main .salient p:nth-child(2){
+    cursor: default;
+    text-transform: uppercase;
+    color: #1f6588;
+    font-weight: bold;
+}
+main .salient .circle{
+    width: .6rem;
+    height: .6rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #c60c30;
+}
+main .conteiner-articles{
+    display: flex;
+    padding: 1.5rem 7.3rem;
+}
+main .conteiner-articles div div h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+main .conteiner-articles div div h3{
+    font-size: 1rem;
+    cursor: default;
+}
+main .conteiner-articles div div p{
+    font-size: 1rem;
+    text-align: left;
+    cursor: default;
+}
+main .conteiner-articles div div .category{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+    color: #1f6588;
+    cursor: default;
+}
+main .conteiner-articles .section-one{
+    width: 25rem;
+    padding: 0 .8rem;
+    border-right: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-one div h5{
+    padding: 1.2rem 0 .8rem 0; 
+}
+main .conteiner-articles .section-one div:nth-child(2) h3{
+    padding-bottom: .8rem;
+    border-bottom: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-one div:nth-child(3) p{
+    margin-top: 1rem;
+}
+main .conteiner-articles .section-one .image-medium{
+    width: 100%;
+    height: 14rem;
+    background-image: url("https://i.postimg.cc/pdTLKQwn/daniel-ortega.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+main .conteiner-articles .section-one .one-article p{
+    font-size: 1.1rem;
+    text-align: left;
+    border-bottom: 2px solid #E4E4E4;
+    padding-top: 1.2rem ;
+}
+main .conteiner-articles .section-two{
+    width: 30rem;
+    padding: 0 .8rem;
+    border-right: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-two div h5{
+    padding: 1.2rem 0 .8rem 0; 
+}
+main .conteiner-articles .section-two div p{
+    padding: .8rem 0;
+    border-bottom: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-two .one-article h3{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+main .conteiner-articles .section-two .image-big{
+    width: 100%;
+    height: 19rem;
+    background-image: url("https://i.postimg.cc/QCRfJqYN/secretarios.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+main .conteiner-articles .section-two div .section-police{
+    display: flex;
+    width: 100%;
+}
+main .conteiner-articles .section-two div .section-police h3{
+    margin-left: .8rem;
+}
+main .conteiner-articles .section-two .image-police{
+    width: 27rem;
+    height: 7rem;
+    background-image: url("https://i.postimg.cc/50FJ4szb/image-police.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .4rem;
+}
+main .conteiner-articles .section-three{
+    width: 20rem;
+    padding: 0 .8rem;
+}
+main .conteiner-articles .section-three div p{
+    padding: 1rem 0 .8rem 0; 
+    border-bottom: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-three div h3{
+    padding-top: .9rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+main .conteiner-articles .section-three div:nth-child(2) h3{
+    padding: 1rem 0 1.2rem 0;
+    border-bottom: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-three div:nth-child(2) h5{
+    padding-top: 1.2rem; 
+}
+main .conteiner-articles .section-three div:nth-child(3) h3{
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #E4E4E4;
+}
+main .conteiner-articles .section-three div:nth-child(3) h5{
+    padding-top: 1.2rem; 
+
+}
+main .conteiner-articles .section-three div:nth-child(4) h3{
+    margin-bottom: 2rem;
+}
+main .conteiner-articles .section-three div:nth-child(4) h5{
+    padding-top: 1.2rem; 
+}
+main .conteiner-articles .section-three .image-precandidates{
+    width: 100%;
+    height: 12rem;
+    background-image: url("https://i.postimg.cc/vBygfxvR/image-precandidates.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .4rem;
+}
